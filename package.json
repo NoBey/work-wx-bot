@@ -1,0 +1,71 @@
+{
+  "name": "react-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dll": "npm run clean-dll && node bin/dll",
+    "dev": "node bin/start",
+    "clean-dll": "rm -rf ./dll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoBey/react-init.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoBey/react-init/issues"
+  },
+  "homepage": "https://github.com/NoBey/react-init#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-import": "^1.6.6",
+    "copy-webpack-plugin": "^4.5.1",
+    "compression": "^1.7.4",
+    "mini-css-extract-plugin": "^0.5.0",
+    "babel-core": "^6.25.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "http-proxy-middleware": "^0.19.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.4.0",
+    "html-webpack-include-assets-plugin": "^1.0.7",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "css-loader": "^0.28.11",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "webpack-dev-middleware": "^3.6.1",
+    "webpack-merge": "^4.2.1",
+    "webpackbar": "^2.6.3",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "antd": "3.8.0",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "flyio": "^0.6.10",
+    "js-cookie": "^2.2.0",
+    "mobx": "^5.8.0",
+    "mobx-react": "^5.4.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
